@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<config>
+    <paths>
+        <site name="Select the station">
+            <pathOblique>C:\DB_IMAGE</pathOblique>
+            <pathRectified>C:\DB_IMAGE\Select the station\rectified</pathRectified>
+            <pathMergeOblique>C:\DB_IMAGE\Select the station\merged\oblique</pathMergeOblique>
+            <pathMergeRectified>C:\DB_IMAGE\Select the station\merged\rectified</pathMergeRectified>
+            <pathObliqueMin>C:\DB_IMAGE\Select the station\thumbnail\oblique</pathObliqueMin>
+            <pathRectifiedMin>C:\DB_IMAGE\Select the station\thumbnail\rectified</pathRectifiedMin>
+            <pathMergeObliqueMin>C:\DB_IMAGE\Select the station\thumbnail\merged\oblique</pathMergeObliqueMin>
+            <pathMergeRectifiedMin>C:\DB_IMAGE\Select the station\thumbnail\merged\rectified</pathMergeRectifiedMin>
+        </site>
+        <site name="CARTAGENA">
+            <pathOblique>C:\DB_IMAGE</pathOblique>
+            <pathRectified>C:\DB_IMAGE\Select the station\rectified</pathRectified>
+            <pathMergeOblique>C:\DB_IMAGE\Select the station\merged\oblique</pathMergeOblique>
+            <pathMergeRectified>C:\DB_IMAGE\Select the station\merged\rectified</pathMergeRectified>
+            <pathObliqueMin>C:\DB_IMAGE\Select the station\thumbnail\oblique</pathObliqueMin>
+            <pathRectifiedMin>C:\DB_IMAGE\Select the station\thumbnail\rectified</pathRectifiedMin>
+            <pathMergeObliqueMin>C:\DB_IMAGE\Select the station\thumbnail\merged\oblique</pathMergeObliqueMin>
+            <pathMergeRectifiedMin>C:\DB_IMAGE\Select the station\thumbnail\merged\rectified</pathMergeRectifiedMin>
+        </site>
+    </paths>
+</config>

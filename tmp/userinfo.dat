@@ -1,0 +1,5 @@
+name=horususer
+password=44BD585BC4AA2B5C2B4666A61C7C5650
+host=localhost
+port=3306
+dbname=horus

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Configuration station="HORUSPORTABLE">
+    <CameraConfig>
+        <Camera id=" C1">
+            <FrameRate>3.75</FrameRate>
+            <GainMode>auto</GainMode>
+            <ShutterMode>auto</ShutterMode>
+            <WhiteBalanceMode>auto</WhiteBalanceMode>
+            <AdaptorName>avtmatlabadaptor64_r2009b</AdaptorName>
+            <DeviceID>1</DeviceID>
+            <DeviceFormat>F1M3_YUV422_1024x768</DeviceFormat>
+            <AOI>
+                <mode>off</mode>
+                <Height>768</Height>
+                <Width>1024</Width>
+                <Left>0</Left>
+                <Top>0</Top>
+            </AOI>
+        </Camera>
+    </CameraConfig>
+    <CaptureConfig>
+        <Capture id="1" type="stack">
+            <StartHour>7</StartHour>
+            <StartMinute>10</StartMinute>
+            <EndHour>17</EndHour>
+            <EndMinute>5</EndMinute>
+            <TimeStep>60</TimeStep>
+            <NumberOfFrames>225</NumberOfFrames>
+            <ROI>
+                <XCoords>111 251 251 110 111</XCoords>
+                <YCoords>70 67 731 731 74</YCoords>
+            </ROI>
+        </Capture>
+        <Capture id="4" type="stack">
+            <StartHour>7</StartHour>
+            <StartMinute>30</StartMinute>
+            <EndHour>17</EndHour>
+            <EndMinute>30</EndMinute>
+            <TimeStep>60</TimeStep>
+            <NumberOfFrames>225</NumberOfFrames>
+            <ROI>
+                <XCoords>210 268 269 212 209</XCoords>
+                <YCoords>98 97 740 740 97</YCoords>
+            </ROI>
+        </Capture>
+        <Capture id="2" type="image">
+            <StartHour>7</StartHour>
+            <StartMinute>0</StartMinute>
+            <EndHour>17</EndHour>
+            <EndMinute>0</EndMinute>
+            <TimeStep>60</TimeStep>
+            <CaptureTime>60</CaptureTime>
+            <Snap>true</Snap>
+            <Timex>true</Timex>
+            <Var>true</Var>
+        </Capture>
+    </CaptureConfig>
+    <CameraPerCaptureConfig>
+        <CameraPerCapture camera=" C1" capture="2"/>
+        <CameraPerCapture camera=" C1" capture="1"/>
+        <CameraPerCapture camera=" C1" capture="4"/>
+    </CameraPerCaptureConfig>
+</Configuration>
